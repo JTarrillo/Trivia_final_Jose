@@ -373,7 +373,7 @@ while True:
 
             elif contraseña_usada == 1:
                 plusPuntaje = random.randint(50, 106)
-                score += plusPuntaje
+                puntaje += plusPuntaje
                 print(
                     setColour(
                         f"\n¡Sorprendente {name}!, sigues demostrando ser portador del conocimiento absoluto, por ello los dioses te bendicen con {plusPuntaje} puntotes, para un total de {puntaje} puntos acumulados. Sin embargo, te aconsejo no emplearlo más, o podrías desatar un castigo scorístico sobre ti u-ú. \n",
